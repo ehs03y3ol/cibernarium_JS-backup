@@ -1,0 +1,8 @@
+/* SELECTORES EN CSS */
+/* 3 tipos
+1: Nombre de la etiqueta
+2: Por identificador propio "ID"
+3: Por clase común "CLASS" */
+header{
+    background-color: #eee;
+}
