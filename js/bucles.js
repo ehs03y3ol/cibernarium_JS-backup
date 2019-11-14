@@ -32,7 +32,18 @@
 // } while (true);
 // EJEMPLO2: pedir un password hasta que sea de la
 // longitud correcta (6 caract)
-var pass = "";
-do {
-    pass = prompt("Introduce una contraseña (6 caract. minimo)")
-} while (pass.length < 6);
+// var pass = "";
+// do {
+//     pass = prompt("Introduce una contraseña (6 caract. minimo)");
+// } while (pass.length < 6);
+// FOR
+// SINTAXIS:
+// for (var i = 0; i < array.length; i++) {
+//     array[i]
+// }
+// EJEMPLO1:
+// Imprime todos los elementos de un array
+// var lenguajes = ["JS","HTML","CSS","Java","PHP","MySQL"];
+// for (var i = 0; i < lenguajes.length; i++) {
+//     document.write(lenguajes[i]+"<br>");
+// }
