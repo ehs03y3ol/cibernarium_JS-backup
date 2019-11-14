@@ -11,12 +11,8 @@ que proporciona la estructura de una web -->
         <title>Cibernarium JS</title>
         <!-- link al archivo index.css -->
         <link rel="stylesheet" href="css/index.css">
-        <!-- links a todos los archivos JS -->
-        <script type="text/javascript" src="js/variables.js"></script>
-        <script type="text/javascript" src="js/condicionales.js"></script>
-        <script type="text/javascript" src="js/bucles.js"></script>
-        <script type="text/javascript" src="js/funciones.js"></script>
-
+        <!-- link al archivo contacto.css -->
+        <link rel="stylesheet" href="css/contacto.css">
     </head>
     <body>
         <!-- cabecera -->
@@ -34,18 +30,22 @@ que proporciona la estructura de una web -->
         </header>
         <!-- contenido PRINCIPIAL -->
         <main>
-            <img src="img/imagen_main.png" alt="" class="imagen">
-            <img src="img/imagen_main.png" alt="" class="imagen">
-            <img src="img/imagen_main.png" alt="" class="imagen">
-            <img src="img/imagen_main.png" alt="" class="imagen">
-            <img src="img/imagen_main.png" alt="" class="imagen">
-            <img src="img/imagen_main.png" alt="" class="imagen">
+            <form>
+                <h3>Formulario de contacto</h3>
+                <!-- el atributo "value" es el contenido del input -->
+                <input type="text" placeholder="Nombre" id="nombre">
+                <input type="email" placeholder="Email">
+                <textarea rows="8" cols="80" placeholder="Mensaje"></textarea>
+                <!-- creamos un evento "click" en el elemento tipo "button"
+                que llama a la funcion "validar()" del "validacion.js" -->
+                <input type="button" value="Enviar" onclick="validar();">
+            </form>
         </main>
         <footer>
             <p>Web ejemplo clase Cibernàrium JS</p>
         </footer>
-        <!-- añadimos este link al dom.js para que se creen
+        <!-- añadimos este link al validacion.js para que se creen
         los elementos antes de utilizar el DOM -->
-        <script type="text/javascript" src="js/dom.js"></script>
+        <script type="text/javascript" src="js/validacion.js"></script>
     </body>
 </html>

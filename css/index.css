@@ -11,6 +11,8 @@ de la web */
     margin: 0;
     /* espacio entre el borde del elemento hacia dentro */
     padding: 0;
+    /* no suma los border y los padding a los elementos */
+    box-sizing: border-box;
 }
 /* CABECERA */
 header{
