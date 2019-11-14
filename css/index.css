@@ -3,6 +3,49 @@
 1: Nombre de la etiqueta
 2: Por identificador propio "ID"
 3: Por clase común "CLASS" */
+/* --------------------------------------------- */
+/* Selector universal: selecciona todos los elementos
+de la web */
+*{
+    /* espacio entre el borde del elemento hacia fuera */
+    margin: 0;
+    /* espacio entre el borde del elemento hacia dentro */
+    padding: 0;
+}
+/* CABECERA */
 header{
+    background-color: #eee;
+    padding: 50px;
+    /* display "flex": posiciona elementos con proporcionalidad
+    de manera rapida y sencilla */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    margin: 10px;
+}
+/* SELECTOR POR ID: cuando tengo que añadir una propiedad
+especifica a un elemento */
+#logo{
+    width: 180px;
+}
+/* CONTENIDO PRINCIPIAL */
+/* SELECTOR POR CLASE: cuando varios elementos tienen
+propiedades comunes */
+.imagen{
+    width: 475px;
+    margin: 20px;
+}
+main{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* PIE DE PAGINA */
+footer{
+    padding: 50px;
+    text-align: center;
     background-color: #eee;
 }
