@@ -32,17 +32,10 @@ que proporciona la estructura de una web -->
         <!-- contenido PRINCIPIAL -->
         <main>
             <form>
-                <h3>Formulario de contacto</h3>
-                <!-- el atributo "value" es el contenido del input -->
-                <input type="text" placeholder="Nombre" id="nombre">
-                <input type="email" placeholder="Email" id="email">
-                <input type="tel" placeholder="Teléfono" id="tel">
-                <textarea rows="8" cols="80" placeholder="Mensaje (mínimo 10 caracteres)"></textarea>
-                <!-- creamos un evento "click" en el elemento tipo "button"
-                que llama a la funcion "validar()" del "validacion.js" -->
-                <input type="button" value="Enviar" onclick="validar();">
+                <h3>Formulario para comprobar keyup</h3>
+                <input type="tel" placeholder="Teléfono" id="tel1" onkeyup="validar_keyup();">
             </form>
-            <div id="results"></div>
+            <div id="results1"></div>
         </main>
         <footer>
             <p>Web ejemplo clase Cibernàrium JS</p>

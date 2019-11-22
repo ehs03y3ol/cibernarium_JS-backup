@@ -13,7 +13,7 @@ input, textarea{
 textarea{
     resize: none;
 }
-#results{
+#results, #results1{
     width: 50%;
     margin: 20px auto;
     text-align: center;
