@@ -1,6 +1,7 @@
 form{
     border: 2px black solid;
     width: 50%;
+    margin: 30px auto;
     padding: 30px;
     text-align: center;
 }
@@ -11,4 +12,10 @@ input, textarea{
 }
 textarea{
     resize: none;
+}
+#results{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    color: red;
 }

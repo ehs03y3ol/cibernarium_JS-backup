@@ -34,12 +34,13 @@ que proporciona la estructura de una web -->
                 <h3>Formulario de contacto</h3>
                 <!-- el atributo "value" es el contenido del input -->
                 <input type="text" placeholder="Nombre" id="nombre">
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" id="email">
                 <textarea rows="8" cols="80" placeholder="Mensaje"></textarea>
                 <!-- creamos un evento "click" en el elemento tipo "button"
                 que llama a la funcion "validar()" del "validacion.js" -->
                 <input type="button" value="Enviar" onclick="validar();">
             </form>
+            <div id="results"></div>
         </main>
         <footer>
             <p>Web ejemplo clase Cibernàrium JS</p>

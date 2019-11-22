@@ -37,9 +37,9 @@
 //     pass = prompt("Introduce una contraseña (6 caract. minimo)");
 // } while (pass.length < 6);
 // FOR
-// SINTAXIS: 
+// SINTAXIS:
 // for (var i = 0; i < array.length; i++) {
-//     array[i]
+//     array[i];
 // }
 // EJEMPLO1:
 // Imprime todos los elementos de un array

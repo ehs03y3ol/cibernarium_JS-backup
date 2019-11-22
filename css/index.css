@@ -39,7 +39,7 @@ propiedades comunes */
     width: 475px;
     margin: 20px;
 }
-main{
+.flex{
     padding: 50px;
     display: flex;
     justify-content: space-around;
