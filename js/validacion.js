@@ -33,3 +33,8 @@ function validar(){
     results.innerHTML = mensajes;
 
 }
+
+function validateEmail(email){
+    var pattern = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return pattern.test(email);
+}
